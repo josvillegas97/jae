@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.sec{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#192B42,#0E6876,#288C93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.logo{
+    width: 5%;
+    height: 10%;
+}
+.custom-shape-divider-bottom-1606685883 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1606685883 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1606685883 .shape-fill {
+    fill: #FFFFFF;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    font-size: 2em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+}
+header .navigation li a{
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    max-width: 500px;
+}
+.content h5{
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+}
+.content p{
+    color: #fff;
+    margin: 10px 0 20px;
+}
+.content a{
+    padding: 10px 30px;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #192B42;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.analitic{
+    position: absolute;
+    bottom: 5;
+    height: 50%;
+    right: 100px;
+    list-style: none;
+}
+
+
+@media (max-width: 1170px)
+{
+    header{
+        padding: 20px 40px;
+    }
+    header ul.navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#192B42,#0E6876,#288C93);
+        z-index: 100;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header navigation.active{
+        display: flex;
+    }
+    header .navigation li a{
+        color: #fff;
+        margin-left: 0;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .sec{
+        justify-content: center;
+        padding: 40px 40px 0;
+        flex-direction: column;
+    }
+    .content{
+        max-width: 100%;
+        margin-top: 70px;
+    }
+    .content h5{
+        font-size: 3em;
+    }
+    .analitic{
+        position: relative;
+        bottom: 10px;
+        height: initial;
+        right: initial;
+        width: 60%;
+        margin-top: 20px;
+    }
+    .logo{
+        width: 10%;
+        height: 15%;
+    }
+}
+
+@media (max-width: 1269px)
+{
+    header .navigation li a{
+        color: #fff;
+        margin-left: 30px;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 1060px)
+{
+    header .navigation li a{
+        color: #fff;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+}
+
+
+
+
+.big-image{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: 0% 50%;
+    background-image: url('https://images.pexels.com/photos/5974248/pexels-photo-5974248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.big-image .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(40, 59, 137, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fplayvideo{
+    color: white;
+}
+
+.iccircle{
+    color: #288C93;
+}
