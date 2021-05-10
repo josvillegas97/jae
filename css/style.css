@@ -201,3 +201,23 @@ header .navigation li a{
 .iccircle{
     color: #288C93;
 }
+
+.container-boton{
+    position: fixed;
+    z-index: 199;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 40px;
+    transition: ease 1s;
+}
